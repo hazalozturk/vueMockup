@@ -45,6 +45,30 @@
         </v-flex>
       </v-layout>
     </v-flex>
+    <v-flex py-5 xs12 grey darken-2 white--text>
+      <h1 class="deep-orange--text pb-4 pt-5 text-xs-center font-weight-bold">
+        { TECHNOLOGY }
+      </h1>
+      <p>
+        PHP, C#, .NET, Javascript, Java, Node.js, Titanium, ColdFusion,
+        AngularJS, React, Vue.js, jQuery, HTML5, CSS, <br> Cordova, MySQL,
+        MS SQL Server, MongoDB & Elasticsearch.
+      </p>
+      <h2 pt-3>Frameworks, Standards & Tools</h2>
+      <p>
+        Laravel, .NET MVC Framework, .NET Core, Java Spring Framework,
+        Grails, Ionic, Express, Bootstrap, <br> Foundation, TeamCity, Selenium,
+        Jenkins & Git.
+      </p>
+      <h2 pt-3>Don't be afraid to ask</h2>
+      <p>
+        We work with all kinds of technology everyday - Alexa, Siri,
+        Raspberry Pi; We've been doing all kinds of IoT <br> device integration
+        for years: solar panel monitors, museum display case monitors,
+        internet enabled padlocks <br> and cameras.
+      </p>
+      </p>
+    </v-flex>
   </v-container>
 </template>
 
