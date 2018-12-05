@@ -2,6 +2,7 @@
   <v-app>
     <Toolbar/>
     <v-content>
+      <AboutUs/>
       <EmployeeInfo/>
     </v-content>
   </v-app>
@@ -10,12 +11,14 @@
 <script>
 import EmployeeInfo from './components/EmployeeInfo'
 import Toolbar from './components/Toolbar'
+import AboutUs from './components/AboutUs'
 
 export default {
   name: 'App',
   components: {
     EmployeeInfo,
-    Toolbar
+    Toolbar,
+    AboutUs
   }
 }
 </script>
