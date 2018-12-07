@@ -5,6 +5,7 @@
       <AboutUs/>
       <EmployeeInfo/>
     </v-content>
+    <Footer/>
   </v-app>
 </template>
 
@@ -12,13 +13,15 @@
 import EmployeeInfo from './components/EmployeeInfo'
 import Toolbar from './components/Toolbar'
 import AboutUs from './components/AboutUs'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
     EmployeeInfo,
     Toolbar,
-    AboutUs
+    AboutUs,
+    Footer
   }
 }
 </script>

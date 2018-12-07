@@ -8,7 +8,7 @@
         v-for="n in 32"
         :key="n"
         xs3>
-        <v-flex mr-4>
+        <v-flex mr-4 pl-3>
         <v-img
           :src="`https://picsum.photos/300/300?image=${n}`"
         ></v-img>
