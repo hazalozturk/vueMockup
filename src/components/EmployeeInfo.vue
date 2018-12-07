@@ -10,11 +10,14 @@
       <v-flex
         v-for="employee in employee_list"
         :key="employee.name"
-        xs3>
+        xs12 md4 lg3>
         <v-flex mr-4 pl-3 pb-3>
-        <v-img
+        <v-avatar size="16em">
+          <v-img
+          class="elevation-20"
           :src="employee.image"
-        ></v-img>
+          ></v-img>
+        </v-avatar>
         </v-flex>
         <v-flex mb-4 pb-3>
           <v-btn
