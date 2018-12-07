@@ -5,9 +5,18 @@
   >
     <v-layout
       justify-center
-      row
       wrap
     >
+    <v-flex v-for="text in footer_texts" :key="text.parag" py-5 xs4>
+       <h1 class="pb-5 text-xs-center deep-orange--text "> { {{text.title}} }</h1>
+       <h3 class="pl-4 white--text pb-3">{{text.subtitle}}</h3>
+       <p class="pl-4 white--text">
+         {{text.parag}}
+         <br><br>
+         Read More →
+       </p>
+    </v-flex>
+    <v-flex xs12><v-btn flat color="white" target="_blank" href="https://www.troyweb.com/blog">View Blog →</v-btn></v-flex>
       <v-btn
         v-for="icon in icon_list"
         :key="icon"
@@ -24,7 +33,6 @@
         white--text
         xs12
       >
-        <v-flex pl-5 text-xs-left xs12><p><a  href="https://www.troyweb.com/blog">View Blog →</a></p></v-flex>
         <v-btn
           v-for="item in footer_menu_items"
           :key="item.name"
@@ -88,6 +96,35 @@ export default{
         {
           link: 'https://www.troyweb.com/contact',
           name: 'CONTACT'
+        }
+      ],
+      footer_texts: [
+        {
+            title: "BLOG",
+            subtitle: "WHY DO YOU NEED A CODE REVIEW?",
+            parag: "When your potential or current consumer browses your \
+             website, uses your application, submits an online form or \
+             completes a purchase with their credit or debit card, they have \
+             an expectation that their personal information is transferred and\
+             stored securely. Protecting your consumer begins with the \
+             foundation of your website or application...your code. Verifying\
+             that your code is secure safeguards your consumers and helps\
+             ensure that your business is protected against cyber attacks."
+        },
+        {
+          title: "NEWS",
+          subtitle: "19TH ANNUAL RESOURCEFUL WOMEN'S AWARDS LUNCHEON",
+          parag: "YWCA of the Greater Capital Region, Inc. announces Nathaalie\
+            Carey, Deputy Commissioner for Administration and Chief Financial \
+            Officer at NYS Department of Labor, as the 2018 Resourceful Woman \
+            of the Year.  The event, presented by Groff Networks and Troy Web \
+            Consulting, will be held Monday, November 19, 2018 at the Albany \
+            Marriott (new location), 11:30a.m. to 1:30p.m."
+        },
+        {
+          title: "TWITTER",
+          subtitle: "something something",
+          parag: "this need twitter API key and get real data from their page"
         }
       ],
       icon_list: [
