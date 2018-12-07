@@ -41,14 +41,7 @@ import axios from 'axios'
 export default {
   data() {
     return {
-      employee_list: [
-        {
-          "url": "https://www.linkedin.com/in/jbriccetti/",
-          "position": " CEO ",
-          "image": "https://www.troyweb.com/s/Jon.png",
-          "name": "Jon Briccetti"
-        }
-      ]
+      employee_list: []
     }
   },
   created: function () {
