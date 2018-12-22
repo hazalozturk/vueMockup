@@ -1,14 +1,33 @@
 <template>
-  <v-toolbar app prominent extended>
-      <img src="../assets/logo.png" height="40" class="mt-5">
+  <v-toolbar app prominent extended class="pt-5">
+      <img src="../assets/logo.png" height="40">
     <v-spacer></v-spacer>
-    <v-toolbar-items v-for="button in toolbar_buttons" class="mt-5">
+    <v-toolbar-items v-for="button in toolbar_buttons" class="hidden-sm-and-down">
     <v-btn
       flat
       :href="button.link"
       target="_blank"
     > {{ button.name }}</v-btn>
   </v-toolbar-items>
+  <v-menu large class="hidden-md-and-up">
+    <v-btn
+      slot="activator"
+      color="orange" fab dark
+    >
+      <v-icon large>list</v-icon>
+    </v-btn>
+    <v-list>
+      <v-list-tile
+        v-for="button in toolbar_buttons"
+        :href="button.link"
+        :key="button.name"
+        target="_blank"
+      > <v-list-tile-title>
+          {{ button.name }}
+        </v-list-tile-title>
+      </v-list-tile>
+    </v-list>
+  </v-menu>
   </v-toolbar>
 </template>
 

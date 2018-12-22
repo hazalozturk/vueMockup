@@ -8,7 +8,7 @@
       wrap
     >
     <v-flex v-for="text in footer_texts" :key="text.parag" py-5 xs4>
-       <h1 class="pb-5 text-xs-center deep-orange--text "> { {{text.title}} }</h1>
+       <h2 class="pb-5 text-xs-center deep-orange--text "> { {{text.title}} }</h2>
        <h3 class="pl-4 white--text pb-3">{{text.subtitle}}</h3>
        <p class="pl-4 white--text">
          {{text.parag}}
@@ -56,9 +56,9 @@
           white--text
           xs12
         >
-        <h3>
+        <h2>
           { CUSTOM SOFTWARE DEVELOPED IN TROY, NEW YORK }
-        </h3>
+        </h2>
       </v-flex>
     </v-layout>
   </v-footer>

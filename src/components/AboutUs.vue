@@ -27,7 +27,7 @@
         Modernization and Consulting & Strategy. </p>
     </v-flex>
     <v-flex xs12>
-      <h2 class="deep-orange--text py-4 font-weight-bold">
+      <h2 class="deep-orange--text pb-4 font-weight-bold">
         { OUR CORE VALUES }
       </h2>
       <v-layout justify-center row wrap>
@@ -46,7 +46,7 @@
       </v-layout>
     </v-flex>
     <v-flex py-5 xs12 grey darken-2 white--text>
-      <h1 class="deep-orange--text pb-4 pt-5 text-xs-center font-weight-bold">
+      <h1 class="deep-orange--text pb-4 text-xs-center font-weight-bold">
         { TECHNOLOGY }
       </h1>
       <p>
