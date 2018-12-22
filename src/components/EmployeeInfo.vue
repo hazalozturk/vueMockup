@@ -53,7 +53,7 @@ export default {
   methods: {
     getEmployeeList: function () {
       var vm = this
-      axios.get('https://gist.githubusercontent.com/hazalozturk/c1da3e671c2989dac850e6ecac54983f/raw/4a412b6dad29ec4cbc8f077aacecb74e1d0c3f2d/employee.json')
+      axios.get('https://gist.githubusercontent.com/hazalozturk/c1da3e671c2989dac850e6ecac54983f/raw/98423fb779d43d139d2ab355872ade2741e15ade/employee.json')
         .then(function (response) {
           vm.employee_list = response.data
         })
