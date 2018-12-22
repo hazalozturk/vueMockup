@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar app prominent extended class="pt-5">
+  <v-toolbar app prominent>
       <img src="../assets/logo.png" height="40">
     <v-spacer></v-spacer>
     <v-toolbar-items v-for="button in toolbar_buttons" class="hidden-sm-and-down">
