@@ -5,7 +5,7 @@
       wrap
     >
       <v-flex xs12>
-        <h1 class="pb-5 deep-orange--text text-xs-center">{THE TEAM}</h1>
+        <h1 class="pb-5 orange--text text--accent-3 text-xs-center">{THE TEAM}</h1>
       </v-flex>
       <v-flex
         v-for="employee in employee_list"

@@ -4,17 +4,16 @@
       <img src="../assets/banner.jpg">
     </v-flex>
     <v-parallax
-      height="300"
       src="https://stmed.net/sites/default/files/orange-wallpapers-25269-5792868.png"
     >
       <v-flex xs12>
-        <h1 class="grey--text text--darken-3 pb-4 pt-5 text-xs-center font-weight-bold">
+        <h1 class="grey--text text--darken-3 mt-4 text-xs-center font-weight-bold">
           { ABOUT  TROY WEB CONSULTING }
         </h1>
-        <h3 class="grey--text text--darken-3 font-weight-medium pb-2">
+        <h3 class="grey--text text--darken-3 font-weight-medium">
           Our Mission Is To Design And Build Kick-Ass Software.
         </h3>
-        <p class="grey--text text--darken-3 mx-5 px-5 pb-5 mb-5">
+        <p class="grey--text text--darken-3">
           In 2002, Troy Web Consulting formed from a small band of software
           developers in New York's Capital District who had convened around
           various rapid application development tools that were beginning to
@@ -32,7 +31,7 @@
       </v-flex>
     </v-parallax>
     <v-flex xs12>
-      <h2 class="deep-orange--text py-4 font-weight-bold">
+      <h2 class="orange--text text--accent-3 py-4 font-weight-bold">
         { OUR CORE VALUES }
       </h2>
       <v-layout justify-center row wrap>
@@ -51,7 +50,7 @@
       </v-layout>
     </v-flex>
     <v-flex py-5 xs12 grey darken-2 white--text>
-      <h1 class="deep-orange--text pb-4 text-xs-center font-weight-bold">
+      <h1 class="orange--text text--accent-3 pb-4 text-xs-center font-weight-bold">
         { TECHNOLOGY }
       </h1>
       <p>
