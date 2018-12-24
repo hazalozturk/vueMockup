@@ -26,12 +26,9 @@
             target="_blank">
               {{employee.name}}
           </v-btn>
-          <p><a
-            class="black--text"
-            :href='employee.url'
-            target="_blank">
-              {{employee.position}}
-          </a></p>
+          <p class="black--text font-weight-thin">
+            {{employee.position}}
+          </p>
         </v-flex>
       </v-flex>
     </v-layout>
