@@ -2,7 +2,7 @@
   <v-toolbar app prominent>
       <img src="../assets/logo.png" height="40">
     <v-spacer></v-spacer>
-    <v-toolbar-items v-for="button in toolbar_buttons" class="hidden-sm-and-down">
+    <v-toolbar-items v-for="button in toolbar_buttons" :key="button.link" class="hidden-sm-and-down">
     <v-btn
       flat
       :href="button.link"

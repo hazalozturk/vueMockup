@@ -52,7 +52,8 @@
            More than 15 years later, our mission lives on.
            Troy Web Consulting is proud to be the area's recognized leader in
            Custom Software Development, Experiential Design, Integration &
-           Modernization and Consulting & Strategy.         </v-card-text>
+           Modernization and Consulting & Strategy.
+         </v-card-text>
        </v-card>
      </v-timeline-item>
     </v-timeline>
@@ -61,7 +62,7 @@
         { OUR CORE VALUES }
       </h2>
       <v-layout justify-center row wrap>
-        <v-flex xs2 v-for="value in core_values">
+        <v-flex xs2 v-for="value in core_values" :key="value.icon">
           <v-flex>
           <v-img
             :src="value.icon"
@@ -96,7 +97,6 @@
         Raspberry Pi; We've been doing all kinds of IoT <br> device integration
         for years: solar panel monitors, museum display case monitors,
         internet enabled padlocks <br> and cameras.
-      </p>
       </p>
     </v-flex>
   </v-container>
