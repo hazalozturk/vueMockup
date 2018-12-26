@@ -1,6 +1,6 @@
-You can see it [here](https://hazalozturk.github.io/vueMockup/).
-
 # troy-mock-up
+
+You can see it [here](https://hazalozturk.github.io/vueMockup/).
 
 ## Project setup
 ```
