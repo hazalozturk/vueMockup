@@ -1,7 +1,7 @@
 <template>
   <v-container fluid px-0 py-0 text-xs-center grid-list-md>
     <v-flex xs12 grey lighten-3>
-      <img src="../assets/banner.jpg">
+      <img class='bannerImage' src="../assets/banner.jpg">
     </v-flex>
     <v-flex xs12>
       <h1 class="orange--text text--accent-3 mt-4 text-xs-center font-weight-bold">
@@ -138,7 +138,10 @@ export default {
 </script>
 
 <style>
-.rounded-card{
+.rounded-card {
     border-radius:30px;
+}
+.bannerImage {
+  max-width: 100vw;
 }
 </style>
